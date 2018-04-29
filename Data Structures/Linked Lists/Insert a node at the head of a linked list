@@ -1,0 +1,9 @@
+Node* Insert(Node *head,int data)
+{
+  // Complete this method
+    Node* newHead = new Node;
+    newHead->data = data;
+    newHead->next = head;
+    return newHead;
+    
+}
